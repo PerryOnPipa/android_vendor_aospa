@@ -1,4 +1,24 @@
-
+[
+    {
+        "remote":       "github",
+        "repository":   "PerryOnPipa/device_xiaomi_pipa",
+        "target_path":  "device/xiaomi/pipa",
+        "revision":     "uvite"
+    },
+    {
+        "remote":       "github",
+        "repository":   "YumeMichi/kernel_xiaomi_pipa",
+        "target_path":  "kernel/msm-4.19",
+        "revision":     "clang-lto",
+        "clone-depth":  "1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "YumeMichi/vendor_xiaomi_pipa",
+        "target_path":  "vendor/xiaomi/pipa",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
@@ -23,7 +43,12 @@
         "target_path":  "hardware/qcom/media",
         "revision":     "uvite-865"
     },
-
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "uvite"
+    },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
