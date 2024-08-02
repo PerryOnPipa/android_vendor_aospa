@@ -20,6 +20,13 @@
         "clone-depth":  "1"
     },
     {
+        "remote":       "gitlab",
+        "repository":   "kuroringo901/clang-mandisa",
+        "target_path":  "prebuilts/clang-standalone",
+        "revision":     "uvite",
+        "clone-depth":  "1"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
