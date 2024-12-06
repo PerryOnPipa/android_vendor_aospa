@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+     SPDX-FileCopyrightText: 2024 Paranoid Android
+     SPDX-License-Identifier: Apache-2.0
+-->
+<manifest>
+  <include name="../platforms/kona.xml" />
+
+  <project path="device/xiaomi/pipa" name="PerryOnPipa/device_xiaomi_pipa" remote="github" revision="vauxite" />
+  <project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="aospa" revision="vauxite" />
+  <project path="kernel/msm-4.19" name="YumeMichi/kernel_xiaomi_pipa" remote="github" revision="clang-lto" />
+  <project path="vendor/xiaomi/pipa" name="YumeMichi/vendor_xiaomi_pipa" remote="github" revision="vauxite" clone-depth="1" />
+
+</manifest>
